@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Base
+*/
+
+html {
+	color: #333;
+}
+h1,h2,h3,h4 {
+	line-height: 1em;
+	margin-top: 0em;
+}
+a {
+	color: #008;
+	text-decoration: none;
+}
+a:hover { 
+	text-decoration: underline;
+}
+
+/*
+Scaffolding
+*/
+
+.header,
+.primary {
+	padding: .4em;
+	box-sizing: border-box;
+}
+.header {
+	background-color: #ccc;
+}
+.menu,
+.primary {
+	clear: both;
+}
+.menu-link {
+	display: block;
+}
+
+/*
+Layouts
+*/
+
+/*
+Type
+*/
+
+.header,
+.header h3 {
+	font-size: 1.2em;
+	margin: 0;
+}
+
+/*
+Lists
+*/
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+/*
+Buttons
+*/
+
+/*
+Navigation - Primary
+*/
+
+/*
+Thumbnails - Images
+*/
+
+/*
+Utilities
+*/
